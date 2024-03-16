@@ -9,4 +9,4 @@
 - **Anurag Verma** - [GitHub](https://github.com/Ave19Anurag)
 - **Akshat Bharadwaj** - [GitHub](https://github.com/akshatbhardwaj17)
 - **Nilanshu** - [GitHub](https://github.com/Nilanshu-Ankit)
-- **Ankit Vinayak Gupta** - [GitHub](Pending)
+- **Vinayak Gupta** - [GitHub](Pending)
