@@ -37,6 +37,7 @@ The scope of testing includes all features and functionalities outlined in the S
 - **Acceptance Testing:** Confirm the platform meets user requirements and expectations.
 - **Performance Testing:** Assess the platform's responsiveness and stability under load.
 - **Security Testing:** Identify and mitigate potential security vulnerabilities.
+- **API Testing:** Evaluate the reliability, performance, and security of the API endpoints to ensure they handle requests and responses correctly, adhere to expected functionality, and maintain data integrity.
 
 ### 3. Test Cases
 
