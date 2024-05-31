@@ -13,6 +13,10 @@
 9. [End Users](#9-end-users)
 10. [Regulatory Bodies](#10-regulatory-bodies)
 11. [Technology Partners](#11-technology-partners)
+12. [Marketing and Sales Team](#12-marketing-and-sales-team)
+13. [Customer Support Team](#13-customer-support-team)
+14. [Financial Stakeholders](#14-financial-stakeholders)
+15. [Environmental Advocacy Groups](#15-environmental-advocacy-groups)
 
 ### 1. Introduction
 Eco-Cycle aims to create a unified platform where manufacturers and recyclers can efficiently buy and sell recycled materials, promoting sustainability and environmental responsibility. This Stakeholders document identifies and describes the key individuals and groups involved in or impacted by the project.
@@ -65,3 +69,23 @@ Eco-Cycle aims to create a unified platform where manufacturers and recyclers ca
 - **Role:** External vendors or partners providing technology solutions, services, or expertise to support the development and deployment of the Eco-Cycle platform.
 - **Responsibilities:** Provide technical expertise, software development tools, infrastructure, or consulting services to enhance the platform's capabilities.
 - **Expectations:** Expect clear project requirements, effective collaboration, and support from the project team. Seek opportunities to showcase their expertise and build long-term partnerships.
+
+### 12. Marketing and Sales Team
+- **Role:** Responsible for promoting the Eco-Cycle platform, acquiring users, and driving sales.
+- **Responsibilities:** Develop marketing strategies, create promotional materials, manage advertising campaigns, and engage with potential users through various channels.
+- **Expectations:** Expect collaboration with the development team to understand platform features, timely updates on platform progress, and support from business stakeholders to ensure alignment with market needs.
+
+### 13. Customer Support Team
+- **Role:** Provides assistance and support to users of the Eco-Cycle platform.
+- **Responsibilities:** Handle user inquiries, resolve issues, provide training and resources, and gather user feedback to inform platform improvements.
+- **Expectations:** Expect detailed documentation, training on platform functionalities, and efficient communication channels to escalate issues to relevant teams.
+
+### 14. Financial Stakeholders
+- **Role:** Individuals or entities that have a financial interest in the success of the Eco-Cycle project, such as investors or funding agencies.
+- **Responsibilities:** Provide funding, oversee financial planning, and ensure that the project adheres to budgetary constraints.
+- **Expectations:** Expect regular financial reports, transparent use of funds, and updates on project milestones and returns on investment.
+
+### 15. Environmental Advocacy Groups
+- **Role:** Organizations advocating for environmental protection and sustainability, which may support the Eco-Cycle platform’s goals.
+- **Responsibilities:** Provide expertise on sustainable practices, promote the platform within their networks, and offer feedback on its environmental impact.
+- **Expectations:** Expect the platform to align with environmental best practices, demonstrate measurable sustainability outcomes, and support broader environmental advocacy efforts.

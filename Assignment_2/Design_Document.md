@@ -18,78 +18,75 @@
 8. [Performance Design](#8-performance-design)
 9. [Deployment Design](#9-deployment-design)
 
-
 ### 1. Introduction
-The Eco-Cycle project aims to create an online platform to facilitate the exchange of recycled materials between manufacturers and recyclers, promoting sustainability and environmental responsibility. This design document outlines the system architecture, database schema, user interface design, API design, and other technical aspects of the Eco-Cycle platform.
+Eco-Cycle is an online platform dedicated to fostering sustainability by enabling the exchange of recycled materials between manufacturers and recyclers. This document outlines the technical design, including system architecture, database schema, user interfaces, API specifications, and security measures.
 
 ### 2. System Overview
-Eco-Cycle provides a marketplace for manufacturers to find and purchase recycled materials from recyclers. Key functionalities include user management, material listings, transaction management, communication, and reporting.
+Eco-Cycle serves as a marketplace where manufacturers can discover and purchase recycled materials from recyclers. Core functionalities encompass user management, material listings, transaction processing, communication, and analytics.
 
 ### 3. Architecture Design
 
 #### 3.1 Overview
-The Eco-Cycle platform is built using a microservices architecture. Each service is responsible for specific functionalities and communicates with others via RESTful APIs. The system utilizes cloud infrastructure for scalability and reliability.
+The platform employs a microservices architecture, with each service handling specific tasks and communicating via RESTful APIs. The system leverages cloud infrastructure to ensure scalability and reliability.
 
 #### 3.2 Components
-- **User Service:** Manages user registration, authentication, and profile management.
-- **Listing Service:** Handles creation, search, and management of material listings.
-- **Transaction Service:** Manages buying, selling, and order tracking.
-- **Communication Service:** Facilitates messaging and notifications between users.
-- **Analytics Service:** Provides reporting and analytics on user activities.
+- **User Service:** Manages user registration, authentication, and profiles.
+- **Listing Service:** Handles material listing creation, search, and management.
+- **Transaction Service:** Manages the lifecycle of transactions, including orders and tracking.
+- **Communication Service:** Supports messaging and notifications.
+- **Analytics Service:** Generates reports and provides insights on user activities.
 
 #### 3.3 Data Flow
 1. Users register and authenticate through the User Service.
-2. Recyclers create material listings via the Listing Service.
-3. Manufacturers search for listings and initiate transactions through the Transaction Service.
+2. Recyclers post material listings via the Listing Service.
+3. Manufacturers search listings and initiate transactions via the Transaction Service.
 4. Users communicate through the Communication Service for inquiries and negotiations.
-5. Analytics Service aggregates data for reporting and insights.
+5. The Analytics Service aggregates and analyzes data for reporting.
 
 ### 4. Database Design
 
 #### 4.1 Schema
-- **Users Table:** Stores user details (ID, name, email, password hash, role).
-- **Listings Table:** Stores material listing details (ID, recycler ID, material type, quantity, price, location, quality certifications).
-- **Transactions Table:** Stores transaction details (ID, buyer ID, seller ID, listing ID, quantity, price, status).
-- **Messages Table:** Stores communication details (ID, sender ID, receiver ID, message content, timestamp).
-- **Analytics Table:** Stores aggregated data for reporting purposes.
-
+- **Users Table:** Contains user information (ID, name, email, password hash, role).
+- **Listings Table:** Contains details about material listings (ID, recycler ID, material type, quantity, price, location, quality certifications).
+- **Transactions Table:** Records transaction details (ID, buyer ID, seller ID, listing ID, quantity, price, status).
+- **Messages Table:** Stores communication records (ID, sender ID, receiver ID, message content, timestamp).
+- **Analytics Table:** Stores aggregated data for reporting.
 
 ### 5. User Interface Design
 
 #### 5.1 Web Interface
-- **Homepage:** User registration/login, featured listings, search bar.
-- **Dashboard:** User profile, active listings, transaction history, messages.
-- **Listing Page:** Detailed view of material listings with images, descriptions, and seller ratings.
-- **Transaction Page:** Order status, shipment tracking, and feedback options.
-- **Messaging Page:** Inbox and conversation threads.
+- **Homepage:** Features user registration/login, featured listings, and a search bar.
+- **Dashboard:** Displays user profiles, active listings, transaction history, and messages.
+- **Listing Page:** Shows detailed material listings with images, descriptions, and seller ratings.
+- **Transaction Page:** Includes order status, shipment tracking, and feedback options.
+- **Messaging Page:** Contains an inbox and conversation threads.
 
 #### 5.2 Mobile Interface
-- **Homepage:** Simplified navigation for registration/login, featured listings.
-- **Dashboard:** User profile, active listings, transaction history, messages optimized for mobile.
+- **Homepage:** Simplified navigation for registration/login and featured listings.
+- **Dashboard:** Optimized user profile, active listings, transaction history, and messages.
 - **Listing Page:** Mobile-friendly material listing details.
 - **Transaction Page:** Mobile view for order status and tracking.
 - **Messaging Page:** Chat-like interface for conversations.
 
 ### 6. API Design
-- **User API:** Endpoints for registration, login, profile management.
+- **User API:** Endpoints for registration, login, and profile management.
 - **Listing API:** Endpoints for creating, updating, searching, and viewing listings.
 - **Transaction API:** Endpoints for initiating, updating, and tracking transactions.
 - **Communication API:** Endpoints for sending and receiving messages.
 - **Analytics API:** Endpoints for retrieving user activity reports.
 
 ### 7. Security Design
-- **Encryption:** SSL for data in transit, AES for data at rest.
-- **Authentication:** JWT for user sessions.
+- **Encryption:** SSL/TLS for data in transit, AES for data at rest.
+- **Authentication:** JWT for secure user sessions.
 - **Authorization:** Role-based access control (RBAC) to restrict access based on user roles.
-- **Multi-Factor Authentication:** Optional 2FA for added security.
+- **Multi-Factor Authentication:** Optional 2FA for enhanced security.
 
 ### 8. Performance Design
-- **Scalability:** Use of cloud-based services (AWS, Azure) for auto-scaling.
-- **Load Balancing:** Distribute traffic evenly across servers.
-- **Caching:** Implement caching strategies to reduce database load and improve response times.
+- **Scalability:** Utilization of cloud services (AWS, Azure) for auto-scaling.
+- **Load Balancing:** Distribution of traffic across multiple servers.
+- **Caching:** Implementation of caching strategies to minimize database load and enhance response times.
 
 ### 9. Deployment Design
 - **CI/CD Pipeline:** Automated testing and deployment using tools like Jenkins or GitHub Actions.
-- **Containerization:** Use Docker for consistent environments across development, testing, and production.
-- **Monitoring:** Use tools like Prometheus and Grafana for system performance monitoring and alerts.
-
+- **Containerization:** Deployment using Docker for consistent environments across development, testing, and production.
+- **Monitoring:** Use of Prometheus and Grafana for system performance monitoring and alerting.
