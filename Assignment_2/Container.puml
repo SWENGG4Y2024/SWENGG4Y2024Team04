@@ -1,0 +1,38 @@
+@startuml Container
+
+actor Actor1 as "Manufacturer"
+actor Actor2 as "Recycler" 
+actor Actor3 as "ADMIN" 
+
+rectangle "FrontEnd" as FrontEnd{
+	rectangle "Create Demand" as Demand
+	rectangle "MarketPlace" as MarketPlace
+}
+
+rectangle "Notification System" as Notification
+
+rectangle "Backend" as Backend{
+	rectangle "Encore\nMicroServices" as Encore 
+	rectangle "EcoCycle\nMicroServices" as EcoCycle 
+}
+
+rectangle "Database" as DATABASE  {
+    database "MONGO" as MONGO
+}
+
+Actor1 -down-> FrontEnd
+Actor2 -down-> FrontEnd
+Actor3 -down-> FrontEnd
+
+FrontEnd -down-> Backend
+
+Backend -down-> FrontEnd
+Backend -down-> DATABASE
+Backend -down-> Notification
+
+DATABASE -down-> Backend
+
+Notification -down-> Actor1
+Notification -down-> Actor2
+
+@enduml

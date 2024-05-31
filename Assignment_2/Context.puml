@@ -1,0 +1,84 @@
+@startuml
+
+
+actor Actor1 as "Manufacturer"
+actor Actor2 as "Recycler" 
+actor Actor3 as "ADMIN" 
+
+rectangle " " as MAIN{
+rectangle "AUTH" as AUTH 
+rectangle "Optional 2FA" as OPT2FA 
+}
+
+
+rectangle "ENCORE MARKETPLACE" as ENCORE_MARKETPLACE  {
+    rectangle "LISTING" as LISTING 
+    rectangle "SELLING" as SELLING 
+    rectangle "BUYING" as BUYING 
+}
+
+rectangle "Demand Request" as DEMAND_REQUEST {
+    rectangle "Type" as DEMAND_TYPE 
+    rectangle "Date Upto" as DEMAND_DATE 
+    rectangle "Quantity" as DEMAND_QUANTITY 
+}
+
+rectangle "Database" as DATABASE  {
+    database "MONGO" as MONGO
+}
+
+rectangle " " as PROCESS  {
+  rectangle "ADMIN" as ADMIN1{
+    rectangle "Manufacturer" as MANUFACTURER {
+        rectangle "Direct Buy" as DIRECT_BUY 
+        rectangle "Create Demand" as CREATE_DEMAND 
+        rectangle "Sell Waste" as SELL_WASTE 
+    }
+    rectangle "Recycler" as RECYCLER {
+    rectangle "Buy Waste" as BUY_WASTE 
+    rectangle "Sell Directly" as SELL_DIRECTLY 
+    }
+    
+  }
+    
+}
+
+rectangle "LISTING" as LISTING1{
+  rectangle "Name" as NAME
+  rectangle "Type" as Type
+  rectangle "Price" as Price
+  rectangle "Quantity" as Quantity
+}
+
+Actor1 -down-> MAIN
+Actor2 -down-> MAIN
+Actor3 -down-> MAIN
+Actor3 -down-> ENCORE_MARKETPLACE
+Actor3 -down-> ADMIN1
+
+
+MAIN -down-> PROCESS
+MAIN --> DATABASE
+
+CREATE_DEMAND --> DEMAND_REQUEST
+DEMAND_REQUEST --> MONGO
+
+
+AUTH -down-> OPT2FA
+PROCESS -down-> DATABASE
+
+
+SELL_DIRECTLY -down-> LISTING1
+SELL_WASTE -down-> LISTING1
+
+DEMAND_REQUEST -down-> DEMAND_TYPE
+DEMAND_REQUEST -down-> DEMAND_DATE
+DEMAND_REQUEST -down-> DEMAND_QUANTITY
+
+ENCORE_MARKETPLACE -down-> LISTING
+ENCORE_MARKETPLACE -down-> SELLING
+ENCORE_MARKETPLACE -down-> BUYING
+
+DATABASE -down-> ENCORE_MARKETPLACE
+
+@enduml
