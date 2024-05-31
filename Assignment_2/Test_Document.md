@@ -64,6 +64,19 @@ The scope of testing includes all features and functionalities outlined in the S
 - **TC14:** Verify email notifications for various events.
 - **TC15:** Verify setting communication preferences.
 
+#### 3.5 API Testing
+- **TC16:** Verify API endpoint for user registration with valid and invalid data.
+- **TC17:** Verify API endpoint for login functionality with correct and incorrect credentials.
+- **TC18**: Verify API endpoint for profile updates.
+- **TC19:** Verify API endpoint for listing creation with valid and invalid data.
+- **TC20:** Verify API endpoint for search functionality with various criteria.
+- **TC21:** Verify API endpoint for purchase request initiation.
+- **TC22:** Verify API endpoint for transaction finalization and inventory update.
+- **TC23:** Verify API endpoint for order tracking and history.
+- **TC24:** Verify API endpoint for messaging system functionality.
+- **TC25:** Verify API endpoint for email notifications.
+- **TC26:** Verify API performance under load.
+
 ### 4. Test Environment
 - **Development Environment:** Local development setup with mock data.
 - **Test Environment:** Staging server replicating the production environment for comprehensive testing.
