@@ -91,7 +91,38 @@ The scope of testing includes all features and functionalities outlined in the S
 - **Performance and Security Testing:** Weeks 9-10
 
 ### 6. Defect Management
-- **Defect Tracking Tool:** JIRA or similar tool for logging and tracking defects.
-- **Defect Lifecycle:** Identification -> Logging -> Prioritization -> Assignment -> Resolution -> Verification -> Closure.
-- **Priority Levels:** Critical, High, Medium, Low based on the impact and severity of the defect.
+- **Defect Tracking Tool**
+   - **Tool:** JIRA or a similar defect tracking system.
+   - **Purpose:** To log, track, and manage defects efficiently and systematically.
+- **Defect Lifecycle**
+   - **Identification:**
+      Testers identify a defect during testing activities.
+      A defect is any deviation from the expected behavior or requirements.
+   - **Logging:**
+      Defects are logged into the defect tracking tool with detailed information.
+      Information includes defect ID, description, steps to reproduce, screenshots, severity, priority, and environment details.
+   - **Prioritization:**
+      Defects are prioritized based on their impact on the system and urgency of fixing.
+      Priority levels: Critical, High, Medium, Low.
+   - **Assignment:**
+      Defects are assigned to the appropriate developer or development team for resolution.
+      The assignment is based on the nature of the defect and the expertise required.
+   - **Resolution:**
+      Developers fix the defect and update the status in the tracking tool.
+      The resolution can be a code fix, configuration change, or other necessary actions.
+   - **Verification:**
+      Testers verify the fix by retesting the defect.
+      Verification ensures that the defect has been fixed and no new issues have been introduced.
+   - **Closure:**
+      Once verified, the defect is closed in the tracking tool.
+      Closure indicates that the defect has been resolved and verified satisfactorily.
+- **Priority Levels**
+   - **Critical:** 
+      Defects that cause complete system failure, data loss, or significant impact on core functionalities. Requires immediate attention.
+   - **High:** 
+      Defects that affect major functionalities but do not cause complete system failure. Should be addressed promptly.
+   - **Medium:** 
+      Defects that impact non-core functionalities or have a moderate impact on user experience. Should be fixed in the normal course of development.
+   - **Low:** 
+      Minor defects with minimal impact on functionality or user experience. Can be fixed at a lower priority.
 
