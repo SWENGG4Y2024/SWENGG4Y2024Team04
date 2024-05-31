@@ -72,6 +72,7 @@ The scope of testing includes all features and functionalities outlined in the S
 ### 5. Test Schedule
 - **Unit Testing:** Weeks 1-2
 - **Integration Testing:** Weeks 3-4
+- **API Testing:** Weeks 4-5
 - **System Testing:** Weeks 5-6
 - **Acceptance Testing:** Weeks 7-8
 - **Performance and Security Testing:** Weeks 9-10
