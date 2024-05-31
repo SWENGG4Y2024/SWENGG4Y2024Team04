@@ -15,6 +15,8 @@
 4. [Test Environment](#4-test-environment)
 5. [Test Schedule](#5-test-schedule)
 6. [Defect Management](#6-defect-management)
+7. [Tools & Resources](#7-tools-and-resources)
+8. [Continuos Improvement](#8-continuous-improvement)
 
 
 ### 1. Introduction
@@ -95,3 +97,13 @@ The scope of testing includes all features and functionalities outlined in the S
 - **Defect Lifecycle:** Identification -> Logging -> Prioritization -> Assignment -> Resolution -> Verification -> Closure.
 - **Priority Levels:** Critical, High, Medium, Low based on the impact and severity of the defect.
 
+### 7. Tools and Resources
+- **Testing Tools:** Selenium for automation, JIRA for defect tracking, Postman for API testing, LoadRunner for performance testing.
+- **Resources:** Access to environments, documentation, test data, and necessary tools.
+- **Training:** Ensure team members are trained on tools and processes.
+
+### 8. Continuous Improvement
+- **Feedback Loop:** Collect and use feedback to improve.
+- **Process Review:** Regularly review and refine testing processes.
+- **Best Practices:** Document and share best practices.
+- **Retrospectives:** Evaluate and improve after major testing phases.
