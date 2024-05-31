@@ -12,12 +12,12 @@
 ## 1. Context Diagram
 The context diagram shows the system as a single box with external entities interacting with it. This includes users (actors) and other systems. The goal is to provide an understanding of who interacts with the system and what those interactions are.
 
-![System Context Diagram](/images/Context.png)
+![](Assignment_2/images/Context/png)
 
 ## 2. Container Diagram
 The container diagram zooms into the system to show the high-level technical building blocks (containers) such as web applications, databases, and microservices, along with how they communicate.
 
-![Container Diagram](/images/Container.png)
+![](Assignment_2/images/Container.png)
 
 ## 3. Component Diagram
 The component diagram delves deeper into the containers to show the components within each container and their relationships. Components might include services, classes, or modules.
