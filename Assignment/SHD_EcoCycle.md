@@ -3,7 +3,7 @@
 
 ### Table of Contents
 1. [Introduction](#1-introduction)
-2. [Project Sponsor (Washim Khan)](#2-project-sponsor)
+2. [Project Sponsor (VT SAPLABS India)](#2-project-sponsor)
 3. [Project Manager (Washim Khan)](#3-project-manager-washim-khan)
 4. [Development Team (Developers)](#4-development-team-developers)
 5. [Quality Assurance (QA) Team](#5-quality-assurance-qa-team)
