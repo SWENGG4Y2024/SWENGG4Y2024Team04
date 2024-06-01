@@ -21,7 +21,7 @@
 ### 1. Introduction
 Eco-Cycle aims to create a unified platform where manufacturers and recyclers can efficiently buy and sell recycled materials, promoting sustainability and environmental responsibility. This Stakeholders document identifies and describes the key individuals and groups involved in or impacted by the project.
 
-### 2. Project Sponsor (VT India)
+### 2. Project Sponsor (VT SPLABS India)
 - **Role:** Provides funding, resources, and overall direction for the project. Ensures alignment with organizational goals and strategic objectives.
 - **Expectations:** Expects timely delivery of the Eco-Cycle platform within budget and scope, meeting strategic objectives for sustainability and environmental responsibility.
 
