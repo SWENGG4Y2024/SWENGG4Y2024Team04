@@ -76,8 +76,7 @@ The scope of testing includes all features and functionalities outlined in the S
 - **TC22:** Verify API endpoint for transaction finalization and inventory update.
 - **TC23:** Verify API endpoint for order tracking and history.
 - **TC24:** Verify API endpoint for messaging system functionality.
-- **TC25:** Verify API endpoint for email notifications.
-- **TC26:** Verify API performance under load.
+- **TC25:** Verify API performance under load.
 
 ### 4. Test Environment
 - **Development Environment:** Local development setup with mock data.
