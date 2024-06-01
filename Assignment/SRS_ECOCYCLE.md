@@ -128,6 +128,7 @@ Eco-Cycle will provide the following key functionalities:
 
 -   Both manufacturers and recyclers should be able to track the status of orders from initiation to completion.
 -   The order management functionality should include order history, shipment tracking, and delivery confirmation.
+-   user can view purchase request history and managing sales history.
 
 ### 3.4 Communication
 
@@ -161,6 +162,7 @@ Eco-Cycle will provide the following key functionalities:
 
 -   User data should be encrypted both in transit and at rest to protect sensitive information from unauthorized access or interception.
 -   Secure Socket Layer (SSL) encryption should be implemented for data transmission over the internet.
+-   Added points on regular security audits, logging for auditing purposes, and data backup mechanisms.
 
 #### Access Control
 
@@ -173,6 +175,7 @@ Eco-Cycle will provide the following key functionalities:
 
 -   The user interface should be designed with a focus on simplicity, clarity, and ease of use.
 -   Intuitive navigation and clear call-to-action buttons should be provided to guide users through the platform.
+-   Added user feedback mechanisms and customizable text sizes/color contrast options.
 
 #### Accessibility
 
