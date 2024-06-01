@@ -1,4 +1,4 @@
-# User Requirements Document (URD)
+# User (Manufacturers and Recyclers) Requirements Document (URD) 
 ## Project Name: Eco-Cycle
 
 ### Table of Contents
